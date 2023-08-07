@@ -1,4 +1,4 @@
-""" ## file 
+## file 
 name_file=input('Enter file: ')
 handle=open(name_file)
 counts=dict()
@@ -12,6 +12,6 @@ for word,count in counts.items():
   if bigcount is None or count>bigcount:
     bigword=word
     bigcount=count
-print(bigword,bigcount) """
+print(bigword,bigcount)
 staf=dict()
 print(staf.get('adama'),-1)
